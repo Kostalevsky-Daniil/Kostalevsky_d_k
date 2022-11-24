@@ -21,9 +21,9 @@ int main() {
         while (rhs > 0 && v[rhs - 1]) {
             --rhs;
         }
-        int cost = rhs - lhs;
-        cost = (cost > 0) ? cost : 0;
-        std::cout << cost << std::endl;
+        int answ = rhs - lhs;
+        answ = (answ > 0) ? answ : 0;
+        std::cout << answ << std::endl;
     }
     return 0;
 }
