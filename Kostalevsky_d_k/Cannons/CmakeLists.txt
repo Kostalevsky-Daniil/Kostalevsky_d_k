@@ -1,0 +1,6 @@
+project(C++)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(Library lbry/geom.cpp)
+add_executable(Main canons.cpp)
